@@ -5,9 +5,8 @@ Project Overview
 Objective
 Problem Statement
 Dataset and Data Description
-Data Dictionary
-Tools and Technologies
 Data Cleaning and Preparation
+Tools and Technologies
 SQL Analysis and Queries
 Key Questions Answered
 Key Findings and Business Insights
@@ -39,6 +38,64 @@ Understand the most common customer cancellation reasons.
 A cab-booking business needs to understand booking demand, customer behavior, vehicle performance, driver service quality, revenue distribution, and ride cancellations to operate efficiently.
 Without structured analysis, it can be difficult to determine which customers book most frequently, which vehicle categories perform well, when booking demand is highest, which routes receive the most bookings, and why customers cancel rides.
 This project uses SQL queries to explore these questions and translate booking data into actionable business recommendations.
+
+
+Dataset and Data Description
+| Column Name | Data Type | Description |
+|---|---|---|
+| Booking ID | VARCHAR(10) | Unique identifier for a booking. |
+| Customer ID | INT | Identifier for a customer. |
+| Date | DATE | Date associated with the booking. |
+| Time | TIME | Time associated with the booking. |
+| Booking Status | VARCHAR(25) | Status of the booking, such as completed, cancelled, or incomplete. |
+| Vehicle Type | VARCHAR(20) | Category of vehicle booked, such as Auto, Mini, Bike, Prime Sedan, or Prime SUV. |
+| Pickup Location | VARCHAR(8) | Location where the ride starts. |
+| Drop Location | VARCHAR(8) | Destination of the ride. |
+| Avg VTAT | TIME | Average vehicle time of arrival, as defined by the dataset. |
+| Avg CTAT | TIME | Average customer time of arrival, as defined by the dataset. |
+| Cancelled Rides by Customer | INT | Indicator or count of rides cancelled by customers. |
+| Reason for Cancelling by Customer | VARCHAR(50) | Reason recorded for customer cancellation. |
+| Cancelled Rides by Driver | INT | Indicator or count of rides cancelled by drivers. |
+| Reason for Cancelling by Driver | VARCHAR(50) | Reason recorded for driver cancellation. |
+| Incomplete Rides | INT | Indicator or count of incomplete rides. |
+| Incomplete Rides Reason | VARCHAR(50) | Reason recorded for an incomplete ride. |
+| Booking Value | FLOAT | Monetary value associated with a booking. |
+| Payment Method | VARCHAR(10) | Payment method used for the booking. |
+| Ride Distance | FLOAT | Recorded distance travelled during the ride; the measurement unit should be verified against the source dataset. |
+| Driver Ratings | FLOAT | Rating given to the driver for the booking. |
+| Customer Rating | FLOAT | Customer rating associated with the ride experience. |
+
+🧹 Data Cleaning and Preparation
+The data preparation process includes:
+Creating a dedicated database.
+Inspecting the table structure and existing data types.
+Standardizing date values.
+Converting columns to appropriate data types.
+Reviewing missing and invalid values.
+Checking duplicate booking IDs and inconsistent categories.
+Validating the data before analysis.
+
+Database Setup
+CREATE DATABASE ola_database;
+USE ola_database;
+
+SHOW TABLES;
+
+SELECT *
+FROM bengaluru_ola_booking_data;
+
+DESCRIBE bengaluru_ola_booking_data;
+Date Standardization
+The following example assumes the original dates follow the month-day-year format after replacing slashes with hyphens.
+
+UPDATE bengaluru_ola_booking_data
+SET `Date` = REPLACE(`Date`, '/', '-');
+
+UPDATE bengaluru_ola_booking_data
+SET `Date` = STR_TO_DATE(`Date`, '%m-%d-%Y');
+
+ALTER TABLE bengaluru_ola_booking_data
+MODIFY COLUMN `Date` DATE;
 
 🛠️ Tools & Technologies
 MySQL: Database creation, data preparation, and SQL analysis.
