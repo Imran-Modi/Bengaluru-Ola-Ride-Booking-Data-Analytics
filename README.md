@@ -261,17 +261,17 @@ Bookings with driver ratings below 3.0 can be examined to identify possible serv
 
 ### Customer Booking Analysis
 ![screenshot](Screenshot-01.png)
-This screenshot demonstrates the customer-level aggregation query in MySQL Workbench.
+- This screenshot demonstrates the customer-level aggregation query in MySQL Workbench.
 
 --- 
 ### Average Ride Distance Analysis
 ![screenshot](Screenshot-02.png)
-This screenshot shows the average recorded ride distance for different vehicle categories.
+- This screenshot shows the average recorded ride distance for different vehicle categories.
 
 ---
 ### Booking Trends Analysis
 ![screenshot](Screenshot-03.png)
-This screenshot demonstrates the weekday booking-count analysis, including the higher counts displayed for Monday and Tuesday.
+- This screenshot demonstrates the weekday booking-count analysis, including the higher counts displayed for Monday and Tuesday.
 
 ---
 
