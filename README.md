@@ -307,5 +307,5 @@ Future improvements could include:
 - Visualization: Build a dashboard in Power BI, Tableau, or Excel to present the findings.
 ---
 
-👤 Author
+### 👤 Author
 ***Imran Modi***
