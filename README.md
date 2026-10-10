@@ -4,7 +4,7 @@
 - [Project Overview](#project-overview)
 - [Objective](#objective)
 - [Problem Statement](#problem-statement)
--[Dataset & Data Description](#dataset--data-desription)
+- [Dataset & Data Description](#dataset--data-desription)
 - [Data Cleaning & Preparation](#data-cleaning--preparation)
 - [Tools & Technologies](#tools--technologies)
 - [SQL Analysis and Queries](#sql-analysis--queries)
@@ -45,7 +45,7 @@ This project uses SQL queries to explore these questions and translate booking d
 ---
 
 
-### Dataset and Data Description
+### 📂 Dataset and Data Description
 | Column Name | Data Type | Description |
 |---|---|---|
 | Booking ID | VARCHAR(10) | Unique identifier for a booking. |
@@ -292,7 +292,7 @@ Bookings with driver ratings below 3.0 can be examined to identify possible serv
 <p>    ├── data_dictionary.md</p>
 <p>    └── project_summary.md</p>
 
-### 🏁 Conclusion
+### Conclusion
 - This project demonstrates how MySQL can be used to explore cab booking data and answer business questions about customer activity, driver ratings, ride      distances, vehicle categories, booking value, demand patterns, popular routes, and cancellation reasons.
 - The analysis provides a starting point for understanding booking operations and identifying areas that deserve further investigation. Reliable business recommendations should be based on validated data, clearly defined metrics, and appropriate filters for completed, cancelled, and incomplete rides.
 ---
