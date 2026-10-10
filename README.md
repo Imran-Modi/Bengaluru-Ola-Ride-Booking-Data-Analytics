@@ -17,7 +17,7 @@
 - [Author](#author)
 ---
 
-### 📈 Project Overview
+### 📈Project Overview
 The Ola Cab Booking SQL Data Analytics Project is a data analysis project developed using MySQL to explore cab booking information for Bengaluru.
 The project examines customer booking patterns, driver ratings, ride distances, vehicle performance, revenue generation, popular routes, booking trends, and customer cancellation reasons.
 SQL queries are used to clean and prepare the data, aggregate booking information, compare vehicle categories, and extract business insights that can help improve operational efficiency and customer satisfaction.
@@ -37,7 +37,7 @@ The analysis aims to:
 - Understand the most common customer cancellation reasons.
 ---
 
-### ❓ Problem Statement
+### ❓Problem Statement
 A cab-booking business needs to understand booking demand, customer behavior, vehicle performance, driver service quality, revenue distribution, and ride cancellations to operate efficiently.
 Without structured analysis, it can be difficult to determine which customers book most frequently, which vehicle categories perform well, when booking demand is highest, which routes receive the most bookings, and why customers cancel rides.
 This project uses SQL queries to explore these questions and translate booking data into actionable business recommendations.
@@ -45,7 +45,7 @@ This project uses SQL queries to explore these questions and translate booking d
 ---
 
 
-### 📂 Dataset & Data Description
+### 📂Dataset & Data Description
 | Column Name | Data Type | Description |
 |---|---|---|
 | Booking ID | VARCHAR(10) | Unique identifier for a booking. |
@@ -72,7 +72,7 @@ This project uses SQL queries to explore these questions and translate booking d
 
 ---
 
-### 🧹 Data Cleaning & Preparation
+### 🧹Data Cleaning & Preparation
 The data preparation process includes:
 1. Creating a dedicated database.
 2. Inspecting the table structure and existing data types.
@@ -106,11 +106,11 @@ ALTER TABLE bengaluru_ola_booking_data
 MODIFY COLUMN `Date` DATE;
 ```
 
-### 🛠️ Tools & Technologies
+### 🛠️Tools & Technologies
 - MySQL: Database creation, data preparation, and SQL analysis.
 - MySQL Workbench: SQL development environment for running queries and viewing results.
 
-### 🔍 SQL Analysis & Queries
+### 🔍SQL Analysis & Queries
  The following nine questions demonstrate how SQL can be used to analyze cab booking data. The queries below use the bengaluru_ola_booking_data table.
 
 ### Q1: Top 25 Customers by Completed Bookings
@@ -234,7 +234,7 @@ ORDER BY `Total Cancellations` DESC
 LIMIT 2;
 -- Sorting in descending order ensures that the query returns the most frequent cancellation reasons rather than the least frequent ones. Check the dataset's cancellation indicators or booking status if you need to ensure that every counted record represents an actual cancellation.
 ```
-### 💡 Key Findings & Business Insights
+### 💡Key Findings & Business Insights
 The following observations are based on the supplied SQL results and the initial interpretations provided with the project. Validate each conclusion against the complete dataset before using it in a formal business report.
 
 1. Vehicle Preferences
@@ -257,7 +257,7 @@ Bookings with driver ratings below 3.0 can be examined to identify possible serv
 - Business implication: Review low-rated bookings alongside cancellation history, vehicle category, trip details, and customer feedback. A booking-level rating alone does not establish the cause of poor service.
 ---
 
-### 📸 Project Screenshots
+### 📸Project Screenshots
 
 ### Customer Booking Analysis
 ![screenshot](Screenshot-01.png)
@@ -275,7 +275,7 @@ Bookings with driver ratings below 3.0 can be examined to identify possible serv
 
 ---
 
-### 📂 Project Structure
+### 📂Project Structure
 <p>Ola-Cab-Booking-SQL-Data-Analytics/</p>
 <p>├── README.md</p>
 <p>├── data/</p>
@@ -297,7 +297,7 @@ Bookings with driver ratings below 3.0 can be examined to identify possible serv
 - The analysis provides a starting point for understanding booking operations and identifying areas that deserve further investigation. Reliable business recommendations should be based on validated data, clearly defined metrics, and appropriate filters for completed, cancelled, and incomplete rides.
 ---
 
-### 🚀 Additional Analysis Opportunities
+### 🚀Additional Analysis Opportunities
 Future improvements could include:
 - Booking completion rate: Calculate completed bookings as a percentage of all bookings.
 - Cancellation analysis: Compare cancellation rates by customer, driver, vehicle type, and time of day.
