@@ -258,20 +258,22 @@ Bookings with driver ratings below 3.0 can be examined to identify possible serv
 ---
 
 ### 📸 Project Screenshots
-Customer Booking Analysis
 
-
+### Customer Booking Analysis
+![screenshot](Screenshot-01.png)
 This screenshot demonstrates the customer-level aggregation query in MySQL Workbench.
 
-Average Ride Distance Analysis
-!Screenshot-02.png
-
+--- 
+### Average Ride Distance Analysis
+![screenshot](Screenshot-02.png)
 This screenshot shows the average recorded ride distance for different vehicle categories.
 
-Booking Trends Analysis
-!Screenshot-03.png
-
+---
+### Booking Trends Analysis
+![screenshot](Screenshot-03.png)
 This screenshot demonstrates the weekday booking-count analysis, including the higher counts displayed for Monday and Tuesday.
+
+---
 
 ### 📂 Project Structure
 Ola-Cab-Booking-SQL-Data-Analytics/
