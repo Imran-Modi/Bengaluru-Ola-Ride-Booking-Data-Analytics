@@ -1,7 +1,12 @@
 # Bengaluru-Ola-Ride-Booking-Data-Analytics
 
+### 📈Project Overview
+The Ola Cab Booking SQL Data Analytics Project is a data analysis project developed using MySQL to explore cab booking information for Bengaluru.
+The project examines customer booking patterns, driver ratings, ride distances, vehicle performance, revenue generation, popular routes, booking trends, and customer cancellation reasons.
+SQL queries are used to clean and prepare the data, aggregate booking information, compare vehicle categories, and extract business insights that can help improve operational efficiency and customer satisfaction.
+
+---
 ### 📑 Table of Contents
-- [Project Overview](#project-overview)
 - [Objective](#objective)
 - [Problem Statement](#problem-statement)
 - [Dataset & Data Description](#dataset--data-description)
@@ -15,13 +20,6 @@
 - [Conclusion](#conclusion)
 - [Additional Analysis Opportunities](#additional-analysis-opportunities)
 - [Author](#author)
----
-
-### 📈Project Overview
-The Ola Cab Booking SQL Data Analytics Project is a data analysis project developed using MySQL to explore cab booking information for Bengaluru.
-The project examines customer booking patterns, driver ratings, ride distances, vehicle performance, revenue generation, popular routes, booking trends, and customer cancellation reasons.
-SQL queries are used to clean and prepare the data, aggregate booking information, compare vehicle categories, and extract business insights that can help improve operational efficiency and customer satisfaction.
-
 ---
 
 ### 🎯Objective
