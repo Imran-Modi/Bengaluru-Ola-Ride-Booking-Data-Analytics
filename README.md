@@ -2,34 +2,20 @@
 
 ### 📑 Table of Contents
 - [Project Overview](#project-overview)
-- Objective
+- [Objective](#objective)
 - [Problem Statement](#problem-statement)
 -[Dataset & Data Description](#dataset--data-desription)
 - [Data Cleaning & Preparation](#data-cleaning--preparation)
 - [Tools & Technologies](#tools--technologies)
-- SQL Analysis and Queries
-- Key Questions Answered
+- [SQL Analysis and Queries](#sql-analysis--queries)
+- [Key Questions Answered](#key-questions-answered)
 - [Key Findings & Business Insights](#key-findings--business-insights)
-- Project Screenshots
+- [Project Screenshots](#project-screenshots)
 - [Project Structure](#project-structure)
-- Conclusion
-- Additional Analysis Opportunities
+- [Conclusion](#conclusion)
+- [Additional Analysis Opportunities](#additional-analysis-opportunities)
 - [Author](#author)
 ---
-
-- 
-- 
-- 
-- [Tools & Technologies](#tools--technologies)
-- [Data Cleaning & Preparation](#data-cleaning--preparation)
-- [Dashboard KPIs](#dashboard-kpis)
-- [Key Findings](#key-findings)
-- [Dashboard](#dashboard)
-- [Business Insights](#business-insights)
-- [Project Structure](#project-structure)
-- [Author](#author)
-- [Project Status](#project-status)
-
 
 ### 📈 Project Overview
 The Ola Cab Booking SQL Data Analytics Project is a data analysis project developed using MySQL to explore cab booking information for Bengaluru.
@@ -273,7 +259,7 @@ Bookings with driver ratings below 3.0 can be examined to identify possible serv
 
 ### 📸 Project Screenshots
 Customer Booking Analysis
-!Screenshot-01.png
+
 
 This screenshot demonstrates the customer-level aggregation query in MySQL Workbench.
 
