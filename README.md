@@ -254,7 +254,7 @@ The initial notes highlight wrong addresses and driver requests to cancel as rea
 - Business implication: Improve pickup-location confirmation, provide clearer cancellation procedures, and investigate drivers repeatedly requesting cancellations. Confirm the top reasons using the descending-count query before prioritizing corrective actions.
 6. Driver Service Quality
 Bookings with driver ratings below 3.0 can be examined to identify possible service-quality issues.
-Business implication: Review low-rated bookings alongside cancellation history, vehicle category, trip details, and customer feedback. A booking-level rating alone does not establish the cause of poor service.
+- Business implication: Review low-rated bookings alongside cancellation history, vehicle category, trip details, and customer feedback. A booking-level rating alone does not establish the cause of poor service.
 ---
 
 ### 📸 Project Screenshots
