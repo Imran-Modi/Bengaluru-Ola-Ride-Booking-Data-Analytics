@@ -24,7 +24,7 @@ SQL queries are used to clean and prepare the data, aggregate booking informatio
 
 ---
 
-### 🎯 Objective
+### 🎯Objective
 The primary objective of this project is to use SQL to analyze Ola cab booking data and identify patterns that can support better business decisions.
 The analysis aims to:
 - Identify customers with the highest number of completed rides.
