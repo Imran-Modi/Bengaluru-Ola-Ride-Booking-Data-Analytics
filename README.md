@@ -276,27 +276,21 @@ Bookings with driver ratings below 3.0 can be examined to identify possible serv
 ---
 
 ### 📂 Project Structure
-Ola-Cab-Booking-SQL-Data-Analytics/
-│
-├── README.md
-│
-├── data/
-│   └── bengaluru_ola_booking_data.csv
-│
-├── sql/
-│   ├── 01_database_setup.sql
-│   ├── 02_data_cleaning.sql
-│   └── 03_ola_booking_analysis.sql
-│
-├── images/
-│   ├── customer_analysis.png
-│   ├── vehicle_distance_analysis.png
-│   └── booking_trends_analysis.png
-│
-└── documentation/
-    ├── data_dictionary.md
-    └── project_summary.md
-    ---
+<p>Ola-Cab-Booking-SQL-Data-Analytics/</p>
+<p>├── README.md</p>
+<p>├── data/</p>
+<p>│   └── bengaluru_ola_booking_data.csv</p>
+<p>├── sql/</p>
+<p>│   ├── 01_database_setup.sql</p>
+<p>│   ├── 02_data_cleaning.sql</p>
+<p>│   └── 03_ola_booking_analysis.sql</p>
+<p>├── images/</p>
+<p>│   ├── customer_analysis.png</p>
+<p>│   ├── vehicle_distance_analysis.png</p>
+<p>│   └── booking_trends_analysis.png</p>
+<p>└── documentation/</p>
+<p>    ├── data_dictionary.md</p>
+<p>    └── project_summary.md</p>
 
 ### 🏁 Conclusion
 - This project demonstrates how MySQL can be used to explore cab booking data and answer business questions about customer activity, driver ratings, ride      distances, vehicle categories, booking value, demand patterns, popular routes, and cancellation reasons.
@@ -312,4 +306,6 @@ Future improvements could include:
 - Data quality checks: Check duplicate booking IDs, missing values, invalid dates, and inconsistent categories.
 - Visualization: Build a dashboard in Power BI, Tableau, or Excel to present the findings.
 ---
+
 👤 Author
+***Imran Modi***
