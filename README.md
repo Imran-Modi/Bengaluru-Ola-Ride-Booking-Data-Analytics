@@ -1,19 +1,18 @@
 # Bengaluru-Ola-Ride-Booking-Data-Analytics
 
-### 📈Project Overview
+### Project Overview
 The Ola Cab Booking SQL Data Analytics Project is a data analysis project developed using MySQL to explore cab booking information for Bengaluru.
 The project examines customer booking patterns, driver ratings, ride distances, vehicle performance, revenue generation, popular routes, booking trends, and customer cancellation reasons.
 SQL queries are used to clean and prepare the data, aggregate booking information, compare vehicle categories, and extract business insights that can help improve operational efficiency and customer satisfaction.
 
 ---
-### 📑 Table of Contents
+### Table of Contents
 - [Objective](#objective)
 - [Problem Statement](#problem-statement)
 - [Dataset & Data Description](#dataset--data-description)
 - [Data Cleaning & Preparation](#data-cleaning--preparation)
 - [Tools & Technologies](#tools--technologies)
 - [SQL Analysis and Queries](#sql-analysis--queries)
-- [Key Questions Answered](#key-questions-answered)
 - [Key Findings & Business Insights](#key-findings--business-insights)
 - [Project Screenshots](#project-screenshots)
 - [Project Structure](#project-structure)
@@ -22,7 +21,7 @@ SQL queries are used to clean and prepare the data, aggregate booking informatio
 - [Author](#author)
 ---
 
-### 🎯Objective
+### Objective
 The primary objective of this project is to use SQL to analyze Ola cab booking data and identify patterns that can support better business decisions.
 The analysis aims to:
 - Identify customers with the highest number of completed rides.
@@ -35,7 +34,7 @@ The analysis aims to:
 - Understand the most common customer cancellation reasons.
 ---
 
-### ❓Problem Statement
+### Problem Statement
 A cab-booking business needs to understand booking demand, customer behavior, vehicle performance, driver service quality, revenue distribution, and ride cancellations to operate efficiently.
 Without structured analysis, it can be difficult to determine which customers book most frequently, which vehicle categories perform well, when booking demand is highest, which routes receive the most bookings, and why customers cancel rides.
 This project uses SQL queries to explore these questions and translate booking data into actionable business recommendations.
@@ -43,7 +42,7 @@ This project uses SQL queries to explore these questions and translate booking d
 ---
 
 
-### 📂Dataset & Data Description
+### Dataset & Data Description
 | Column Name | Data Type | Description |
 |---|---|---|
 | Booking ID | VARCHAR(10) | Unique identifier for a booking. |
@@ -70,7 +69,7 @@ This project uses SQL queries to explore these questions and translate booking d
 
 ---
 
-### 🧹Data Cleaning & Preparation
+### Data Cleaning & Preparation
 The data preparation process includes:
 1. Creating a dedicated database.
 2. Inspecting the table structure and existing data types.
@@ -108,7 +107,7 @@ MODIFY COLUMN `Date` DATE;
 - MySQL: Database creation, data preparation, and SQL analysis.
 - MySQL Workbench: SQL development environment for running queries and viewing results.
 
-### 🔍SQL Analysis & Queries
+### SQL Analysis & Queries
  The following nine questions demonstrate how SQL can be used to analyze cab booking data. The queries below use the bengaluru_ola_booking_data table.
 
 ### Q1: Top 25 Customers by Completed Bookings
@@ -232,8 +231,9 @@ ORDER BY `Total Cancellations` DESC
 LIMIT 2;
 -- Sorting in descending order ensures that the query returns the most frequent cancellation reasons rather than the least frequent ones. Check the dataset's cancellation indicators or booking status if you need to ensure that every counted record represents an actual cancellation.
 ```
-### 💡Key Findings & Business Insights
-The following observations are based on the supplied SQL results and the initial interpretations provided with the project. Validate each conclusion against the complete dataset before using it in a formal business report.
+### Key Findings & Business Insights
+
+The following observations are based on the supplied SQL results and the initial interpretations provided with the project. 
 
 1. Vehicle Preferences
 The initial project notes suggest that Auto, Mini, and Bike are popular options.
