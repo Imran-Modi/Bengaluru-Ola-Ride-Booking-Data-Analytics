@@ -104,7 +104,7 @@ ALTER TABLE bengaluru_ola_booking_data
 MODIFY COLUMN `Date` DATE;
 ```
 
-### 🛠️Tools & Technologies
+### Tools & Technologies
 - MySQL: Database creation, data preparation, and SQL analysis.
 - MySQL Workbench: SQL development environment for running queries and viewing results.
 
